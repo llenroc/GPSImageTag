@@ -20,7 +20,7 @@ namespace GPSImageTag.Core.Services
         public MobileServiceClient Client { get; set; } = null;
         IMobileServiceSyncTable<Photo> table;
 
-        const string MobileServiceUrl = "<Azure Mobile App Service Url goes here>";
+        const string MobileServiceUrl = "http://gpsimagetagmobileservice3.azurewebsites.net";
 
         //Create our client
         public AzureService()
